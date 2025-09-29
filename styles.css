@@ -1,0 +1,145 @@
+html {
+  background-color: #F0E3C7;
+  font-family: "Alan Sans", Arial;
+  color: #382C0F;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-top: 7.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* Navigation styles */
+.navigation {
+  background-color: #D6B05E;
+  height: 4rem;
+  width: 100%;
+  display: inline-flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
+.company-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 3px #141005;
+  align-self: center;
+  margin-left: .85rem;
+}
+
+nav {
+  background-color: #C89D37;
+  display: inline-flex;
+  border-radius: 2rem;
+  position: relative;
+}
+nav:hover{
+  background-color: #D2AE5B;
+}
+
+nav a {
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #382C0F;
+  align-self: center;
+}
+nav a:hover {
+  color: #A4802D;
+}
+
+/* Company home styles */
+.company-home {
+  position: relative;
+  top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.company-home img {
+  width: 30rem;
+  height: auto;
+  align-self: center;
+}
+
+.company-home h3, .company-home h6 {
+  font-family: "SUSE Mono", monospace;
+}
+
+.company-home h6 {
+  background-color: #1F0000;
+  color: #FF0000;
+  border-radius: 2rem;
+  width: 25%;
+  justify-self: center;
+}
+
+/* Products styles */
+#products {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  top: 3rem
+}
+
+.images {
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.image-container img {
+  width: 25rem;
+  height: auto;
+  overflow: hidden;
+  border-radius: .5rem;
+  margin: 1rem;
+  margin-bottom: .3rem;
+}
+.image-container h3 {
+  margin-top: 0;
+  font-family: "SUSE Mono", monospace;
+}
+
+/* Teammates styles */
+#teammates {
+  width: 100%;
+  position: relative;
+}
+
+#teammates .section-title {
+  margin-bottom: .5rem;
+}
+
+.team {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 1rem;
+}
+.teammate-card {
+  width: 40rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.teammate-card img {
+  width: 20rem;
+  height: auto;
+  border-radius: 20%;
+}
+
+.teammate-card h3, .teammate-card h4 {
+  margin-top: .4rem;
+  margin-bottom: .4rem;
+}
